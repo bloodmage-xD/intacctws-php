@@ -44,8 +44,8 @@ class api_session
     const XML_HEADER = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <request>
     <control>
-        <senderid>{4%}</senderid>
-        <password>{5%}</password>
+        <senderid>52555485587-5547455</senderid>
+        <password>welcome1234</password>
         <controlid>foobar</controlid>
         <uniqueid>false</uniqueid>
         <dtdversion>2.1</dtdversion>
@@ -62,9 +62,9 @@ class api_session
 </request>";
 
     const XML_LOGIN = "<login>
-                        <userid>{1%}</userid>
-                        <companyid>{2%}</companyid>
-                        <password>{3%}</password>
+                        <userid>Intacct-user</userid>
+                        <companyid>SanjeevTest01</companyid>
+                        <password>Welcome1234</password>
                         {%entityid%}
                 </login>";
 
